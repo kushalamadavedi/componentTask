@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Istudent } from "src/shared/models/students";
 
 
 
@@ -9,7 +10,7 @@ import { Component } from "@angular/core";
     styleUrls: ["./students.component.scss"]
 })
 export class StudentComponent {
-    stdArr : Array <Istudent> = [
+    stdArr : Array<Istudent> = [
         {
             fname: "Jhon",
             lname: "Doe",
